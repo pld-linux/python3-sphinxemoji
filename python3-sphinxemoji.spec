@@ -1,4 +1,5 @@
 Summary:	An extension to use emoji codes in your Sphinx documentation
+Summary(pl.UTF-8):	Rozszerzenie umożliwiające używanie kodów emoji w dokumentacji generowanej Sphinksem
 Name:		python3-sphinxemoji
 Version:	0.2.0
 Release:	1
@@ -19,6 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 An extension to use emoji codes in your Sphinx documentation.
+
+%description -l pl.UTF-8
+Rozszerzenie umożliwiające używanie kodów emoji w dokumentacji
+generowanej Sphinksem.
 
 %prep
 %setup -q -n sphinxemoji-%{version}
